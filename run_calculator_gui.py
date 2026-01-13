@@ -140,7 +140,7 @@ def backend_writer_function():
 def main():  
   Wrangle.inter.title("Custom Calculator")
 #   Wrangle.inter = Button_Input_Wrangler()
-
+  backend_writer_function()
   functions = [[Wrangle.one,Wrangle.four,Wrangle.seven,Wrangle.decimal,],
                [Wrangle.two,Wrangle.five,Wrangle.eight,Wrangle.zero,],
                [Wrangle.three,Wrangle.six,Wrangle.nine,Wrangle.equals],
