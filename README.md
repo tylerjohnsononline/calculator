@@ -1,15 +1,12 @@
 ## Why a calculator?
-Sometimes you need a calculator which does not use order of operations and can see the whole equation before you run each individual calculation.
-examples include:
-  - When it makes no difference what order operations happen (such as when you are adding only or multiplying only).
-  - If you want to write the whole equation out before you run each individual calculation, so you can show someone how multiplication or addition can be written interchangeably.
+As a first portfolio project a calculator was well within the scope of my capabilities.
 
-I wanted a project which I could use to demonstrate my ability to code, this was the choice because it is complex enough to show the level of proficiency I have while also not being easy to understand
+I wanted a project which I could use to demonstrate my ability to code, this was the choice because it is complex enough to show the level of proficiency I have while also not being easy to understand.
 
 ## What I did:
 I made a calculator that does calculations from left to right with no order of operations
 
-to avoid input problems, the inputs are based on the buttons that the software makes and the user clicks instead of keyboard inputs(so no, typing with the number pad or number keys will not work)
+To avoid input problems, the inputs are based on the buttons that the software makes and the user clicks instead of keyboard inputs(so no, typing with the number pad or number keys will not work)
 
 ## What I learned:
 I learned the importance and importance of how to name functions and variables
@@ -20,6 +17,11 @@ While coding I ran into functions I did not use, so I learned to only add functi
 
 I learned after completion that floating point math can cause strange unintended consequences in many programming languages.
 
+I also added a user interface and made the run_calculator_gui.py runable from the command line.
+If you wish to run the program from the command line(cmd), replace "run_calculator_gui.py" with the path to where that file is saved.
+```
+python run_calculator_gui.py
+```
 ## There is always room for improvement
 
 #### If I did this project over, some changes to how the program works could be:
