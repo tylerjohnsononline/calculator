@@ -1,3 +1,22 @@
+### how to use
+step 1: download this repository
+
+step 2: run the following commands: 
+
+```
+python -m venv place_to__place_virtual_environment
+```
+
+```
+pip install -r requirements.txt
+```
+
+```
+python run_calculator_gui.py
+```
+step 3: use the window that looks like calculator image by clicking on the numbers and operations you want to perform
+step 4: click the "=" button when your equation is ready
+
 ## Why a calculator?
 As a first portfolio project a calculator was well within the scope of my capabilities.
 
