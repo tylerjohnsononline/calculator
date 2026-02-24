@@ -1,3 +1,6 @@
+import numpy as np
+
+
 def run_operation(first_number, operation_string, second_number):
   first_number = float(first_number)
   second_number = float(second_number)
@@ -113,7 +116,6 @@ class NumberOperatorOrder:
     last_operator_location = len(name) - name[::-1].index(name[-1]) - 1
 
 
-    import numpy as np
     track_operator_list = np.arange(1,last_operator_location, 2)
 
     # run calculation for each operator left to right
