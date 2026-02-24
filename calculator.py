@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def run_operation(first_number, operation_string, second_number):
   first_number = float(first_number)
   second_number = float(second_number)
