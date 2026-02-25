@@ -21,6 +21,7 @@ pip install -r requirements.txt
 python run_calculator_gui.py
 ```
 step 4: use the window that looks like calculator image by clicking on the numbers and operations you want to perform
+
 step 5: click the "=" button when your equation is ready
 
 ## Why a calculator?
