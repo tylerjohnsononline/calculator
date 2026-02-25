@@ -4,7 +4,13 @@ step 1: download this repository
 step 2: run the following commands: 
 
 ```
-python -m venv place_to__place_virtual_environment
+python -m venv place_to_place_virtual_environment
+```
+
+step 3: open the virtual environment
+
+```
+place_to_place_virtual_environment\Scripts\activate.bat
 ```
 
 ```
@@ -14,8 +20,8 @@ pip install -r requirements.txt
 ```
 python run_calculator_gui.py
 ```
-step 3: use the window that looks like calculator image by clicking on the numbers and operations you want to perform
-step 4: click the "=" button when your equation is ready
+step 4: use the window that looks like calculator image by clicking on the numbers and operations you want to perform
+step 5: click the "=" button when your equation is ready
 
 ## Why a calculator?
 As a first portfolio project a calculator was well within the scope of my capabilities.
