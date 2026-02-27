@@ -1,5 +1,5 @@
 ### how to use
-step 1: download this repository
+step 1: download this repository and python if you haven't already(make sure to install python)
 
 step 2: run the following commands: 
 
