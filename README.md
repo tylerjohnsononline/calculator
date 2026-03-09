@@ -43,7 +43,7 @@ While coding I ran into functions I did not use, so I learned to only add functi
 
 I learned after completion that floating point math can cause strange unintended consequences in many programming languages.
 
-I also added a user interface and made the run_calculator_gui.py runable from the command line.
+I also learned about adding command line functionality by adding a user interface and made the run_calculator_gui.py executable from the command line.
 If you wish to run the program from the command line(cmd), replace "run_calculator_gui.py" with the path to where that file is saved.
 ```
 python run_calculator_gui.py
@@ -62,9 +62,9 @@ I would shorten the button_writes_to_backend function by extracting out how to i
 I would keep the apply_no_order_of_operations function and add the option to use order of operations by having a separate function to handle the how the computer chooses what to do in sequence.
 
 #### Additions
-I would add single character removal
+I would add single character removal.
 
-Then, I would add the ability to change where the cursor is located and the ability to move it 
+Then, I would add the ability to change where the cursor is located and the ability to move it .
 
 Type hints, more comments, and better comments explaining how things should work would be added so anyone reading the code can more easily understand the decisions made and why things are the way they are
 
