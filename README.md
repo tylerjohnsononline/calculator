@@ -27,7 +27,7 @@ step 5: click the "=" button when your equation is ready
 ## Why a calculator?
 As a first portfolio project a calculator was well within the scope of my capabilities.
 
-I wanted a project which I could use to demonstrate my ability to code, this was the choice because it is complex enough to show the level of proficiency I have while also not being easy to understand.
+I wanted a project which I could use to demonstrate my ability to code, this was the choice because it is complex enough to show the level of proficiency I have.
 
 ## What I did:
 I made a calculator that does calculations from left to right with no order of operations
