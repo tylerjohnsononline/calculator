@@ -1,13 +1,13 @@
 ### How To Use
 step 1: download this repository and python if you haven't already(make sure to install python):https://www.python.org/downloads/
 
-step 2: run the following commands: 
+step 2: run the following command: 
 
 ```
 python -m venv place_to_place_virtual_environment
 ```
 
-step 3: open the virtual environment
+step 3: open the virtual environment:
 
 ```
 place_to_place_virtual_environment\Scripts\activate.bat
@@ -41,7 +41,7 @@ I learned about extracting functions to improve functionality, readability, and 
 
 While coding I ran into functions I did not use, so I learned to only add functions after finding a specific use case.
 
-I learned after completion that floating point math can cause strange unintended consequences in many programming languages.
+I learned after completion that floating point math can cause strange unintended consequences in many programming languages, see bellow for what I would have done differently.
 
 I also learned about adding command line functionality by adding a user interface and made the run_calculator_gui.py executable from the command line.
 If you wish to run the program from the command line(cmd), replace "run_calculator_gui.py" with the path to where that file is saved.
@@ -64,9 +64,9 @@ I would keep the apply_no_order_of_operations function and add the option to use
 #### Additions
 I would add single character removal.
 
-Then, I would add the ability to change where the cursor is located and the ability to move it .
+I could also add the ability to move the cursor.
 
-Type hints, more comments, and better comments explaining how things should work would be added so anyone reading the code can more easily understand the decisions made and why things are the way they are
+For developers and maintainance, in the code: Type hints, more comments, and better comments explaining how things should work would be added so anyone reading the code can more easily understand the decisions made and why things are the way they are.
 
-Finally, I would build a function to give the option to calculate with order of operations or without at the user's choice
+Finally, I would build a function to give the option to calculate with order of operations.
 
