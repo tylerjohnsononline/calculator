@@ -1,4 +1,4 @@
-### how to use
+### How To Use
 step 1: download this repository and python if you haven't already(make sure to install python):https://www.python.org/downloads/
 
 step 2: run the following commands: 
@@ -30,14 +30,14 @@ As a first portfolio project a calculator was well within the scope of my capabi
 I wanted a project which I could use to demonstrate my ability to code, this was the choice because it is complex enough to show the level of proficiency I have.
 
 ## What I did:
-I made a calculator that does calculations from left to right with no order of operations
+I made a calculator that does calculations from left to right with no order of operations.
 
 To avoid input problems, the inputs are based on the buttons that the software makes and the user clicks instead of keyboard inputs(so no, typing with the number pad or number keys will not work).
 
 ## What I learned:
 I learned the importance of and how to name functions and variables.
 
-I learned about extracting functions to improve functionality, readability, and workability 
+I learned about extracting functions to improve functionality, readability, and workability.
 
 While coding I ran into functions I did not use, so I learned to only add functions after finding a specific use case.
 
@@ -53,7 +53,7 @@ python run_calculator_gui.py
 #### If I did this project over, some changes to how the program works could be:
 I would change the use of floating points as a default storage method to avoid floating point issues by storing whole numbers and decimals separately.
 
-To more easily allow the program to be improved in the future, the buttons being coded in manually would be redone to take the operations which can be performed and assigning them each individually using a key(dictionary) of which inputs result in what happening.
+To improve maintainability, the buttons could be keyed to different functions.
 
 The names on the buttons can be somewhat confusing and are hard coded into the program. I would improve this by letting the names be more freely assigned in the program and choosing better names for the text on the buttons that the user sees.
 
