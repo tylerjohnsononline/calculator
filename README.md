@@ -20,9 +20,9 @@ pip install -r requirements.txt
 ```
 python run_calculator_gui.py
 ```
-step 4: use the window that looks like calculator image by clicking on the numbers and operations you want to perform
+step 4: use the window that looks like calculator image by clicking on the numbers and operations you want to perform.
 
-step 5: click the "=" button when your equation is ready
+step 5: click the "=" button when your equation is ready.
 
 ## Why a calculator?
 As a first portfolio project a calculator was well within the scope of my capabilities.
@@ -32,14 +32,14 @@ I wanted a project which I could use to demonstrate my ability to code, this was
 ## What I did:
 I made a calculator that does calculations from left to right with no order of operations
 
-To avoid input problems, the inputs are based on the buttons that the software makes and the user clicks instead of keyboard inputs(so no, typing with the number pad or number keys will not work)
+To avoid input problems, the inputs are based on the buttons that the software makes and the user clicks instead of keyboard inputs(so no, typing with the number pad or number keys will not work).
 
 ## What I learned:
-I learned the importance and importance of how to name functions and variables
+I learned the importance of and how to name functions and variables.
 
 I learned about extracting functions to improve functionality, readability, and workability 
 
-While coding I ran into functions I did not use, so I learned to only add functions once you have a specific need for them
+While coding I ran into functions I did not use, so I learned to only add functions after finding a specific use case.
 
 I learned after completion that floating point math can cause strange unintended consequences in many programming languages.
 
