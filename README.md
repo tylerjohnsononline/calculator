@@ -1,3 +1,5 @@
+[image](https://github.com/tylerjohnsononline/calculator/blob/main/images/calculator_one_plus_two.png)
+
 ### How To Use
 step 1: download this repository and python if you haven't already(make sure to install python):https://www.python.org/downloads/
 
