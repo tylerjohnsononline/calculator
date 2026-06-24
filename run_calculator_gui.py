@@ -141,14 +141,16 @@ def main():
   Wrangle.inter.title("Custom Calculator")
 #   Wrangle.inter = Button_Input_Wrangler()
   backend_writer_function()
-  functions = [[Wrangle.one,Wrangle.four,Wrangle.seven,Wrangle.decimal,],
+  functions = [[],
+               [Wrangle.one,Wrangle.four,Wrangle.seven,Wrangle.decimal,],
                [Wrangle.two,Wrangle.five,Wrangle.eight,Wrangle.zero,],
                [Wrangle.three,Wrangle.six,Wrangle.nine,Wrangle.equals],
                [Wrangle.plus,Wrangle.minus,Wrangle.multiply,Wrangle.divide],
                [Wrangle.answer,Wrangle.positive_negative, Wrangle.back,Wrangle.clear]
             #    [print_show],
                ]
-  button_labels = [["1","4","7",".",],
+  button_labels = [[],
+                   ["1","4","7",".",],
                    ["2","5","8","0"],
                    ["3","6","9","="],
                    ["+","-","*","/"],
