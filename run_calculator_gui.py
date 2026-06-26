@@ -129,17 +129,17 @@ def display_image():
   panel.grid(row = 0, column =0)
 
   panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20))
-  panel.grid(row = 0, column =1, columnspan=10)
+  panel.grid(row = 0, column =1, columnspan=5)
   panel = Label(master=Wrangle.inter, text=F"{Storage.backend}", font=(None, 10))
-  panel.grid(row = 0, column =1, columnspan=10)
+  panel.grid(row = 0, column =1, columnspan=5)
 
   panel = Label(master=Wrangle.inter, text=F"result")
   panel.grid(row = 1, column =0) 
   panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20))
-  panel.grid(row = 1, column =1, columnspan=3)
+  panel.grid(row = 1, column =1, columnspan=5)
 
   panel = Label(master=Wrangle.inter, text=F"{Storage.previous_answer[-1]}")
-  panel.grid(row = 1, column =1, columnspan=3)
+  panel.grid(row = 1, column =1, columnspan=5)
 
 
 def backend_writer_function():
@@ -150,28 +150,28 @@ def backend_writer_function():
 #   updatetyping, answer
 
 def main():  
-  Wrangle.inter.title("Custom Calculator")
+  Wrangle.inter.title("Example Calculator")
 #   Wrangle.inter = Button_Input_Wrangler()
   backend_writer_function()
   functions = [[],
-               [[],[],Wrangle.one,Wrangle.four,Wrangle.seven,Wrangle.decimal,],
-               [[],[],Wrangle.two,Wrangle.five,Wrangle.eight,Wrangle.zero,],
-               [[],[],Wrangle.three,Wrangle.six,Wrangle.nine,Wrangle.equals],
-               [[],[],Wrangle.plus,Wrangle.minus,Wrangle.multiply,Wrangle.divide],
-               [[],[],Wrangle.answer,Wrangle.positive_negative, Wrangle.back,Wrangle.clear]
+               [Wrangle.one,Wrangle.four,Wrangle.seven,Wrangle.decimal,],
+               [Wrangle.two,Wrangle.five,Wrangle.eight,Wrangle.zero,],
+               [Wrangle.three,Wrangle.six,Wrangle.nine,Wrangle.equals],
+               [Wrangle.plus,Wrangle.minus,Wrangle.multiply,Wrangle.divide],
+               [Wrangle.answer,Wrangle.positive_negative, Wrangle.back,Wrangle.clear]
             #    [print_show],
                ]
   button_labels = [[],
-                   ["","","1","4","7",".",],
-                   ["","","2","5","8","0"],
-                   ["","","3","6","9","="],
-                   ["","","+","-","*","/"],
-                   ["","","ANSWER", "+/-", "back","clear" ]
+                   ["1","4","7",".",],
+                   ["2","5","8","0"],
+                   ["3","6","9","="],
+                   ["+","-","*","/"],
+                   ["ANS", "+/-", "back","clear" ]
                 #    ["print show"],
                    ]
   user_interface_tool.make_function_array_into_buttons(m=Wrangle.inter, arrays=functions, texts =button_labels, 
                                      default_text = False,
-                                     zero_zero= (2,2))
+                                     zero_zero= (2,0))
   display_image()
   Wrangle.inter.mainloop()
 
