@@ -6,7 +6,8 @@ from tkinter import *
 
 
 def make_function_array_into_buttons(m, arrays, texts =False, 
-                                     default_text = False,): #leftmost buttons going down first column
+                                     default_text = False,
+                                     zero_zero= (0,0)): #leftmost buttons going down first column
     if texts == False:
       texts = [["" for __ in xx ] for xx in arrays]
       if default_text != False:
@@ -21,7 +22,7 @@ def make_function_array_into_buttons(m, arrays, texts =False,
                  text=f"{texts[horizontal_index][index]}", 
                  command = arrays[horizontal_index][index]
                ) 
-         buttons[horizontal_index][index].grid(row = index, column =horizontal_index) 
+         buttons[horizontal_index][index].grid(row = index+zero_zero[0], column =horizontal_index+zero_zero[1]) 
 
 
 

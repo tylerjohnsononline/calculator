@@ -170,7 +170,8 @@ def main():
                 #    ["print show"],
                    ]
   user_interface_tool.make_function_array_into_buttons(m=Wrangle.inter, arrays=functions, texts =button_labels, 
-                                     default_text = False,)
+                                     default_text = False,
+                                     zero_zero= (2,2))
   display_image()
   Wrangle.inter.mainloop()
 
