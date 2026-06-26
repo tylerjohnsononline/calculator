@@ -7,7 +7,7 @@ from tkinter import *
 import user_interface_tool
 import calculator
 
-class Button_Input_Wrangler():
+class Button_Input_Wrangler(): 
   def __init__(self):
     self.description = ""
     self.inter = tkinter.Tk()
@@ -124,21 +124,21 @@ class Button_Input_Wrangler():
 Storage = calculator.NumberOperatorOrder([], [], [], [], [''])
 Wrangle = Button_Input_Wrangler()
 
-def display_image():
-  panel = Label(master=Wrangle.inter, text=F"equation",)
-  panel.grid(row = 0, column =0)
+def display_image(bgcolor="light gray"):
+  panel = Label(master=Wrangle.inter, text=F"typed",background=bgcolor)
+  panel.grid(row = 0, column =1)
 
-  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20))
-  panel.grid(row = 0, column =1, columnspan=5)
-  panel = Label(master=Wrangle.inter, text=F"{Storage.backend}", font=(None, 10))
-  panel.grid(row = 0, column =1, columnspan=5)
+  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20),background=bgcolor)
+  panel.grid(row = 0, column =2, columnspan=5)
+  panel = Label(master=Wrangle.inter, text=F"{Storage.backend}", font=(None, 10),background=bgcolor)
+  panel.grid(row = 0, column =2, columnspan=5)
 
-  panel = Label(master=Wrangle.inter, text=F"result")
-  panel.grid(row = 1, column =0) 
-  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20))
-  panel.grid(row = 1, column =1, columnspan=5)
+  panel = Label(master=Wrangle.inter, text=F"result",background=bgcolor)
+  panel.grid(row = 1, column =1) 
+  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20), background=bgcolor)
+  panel.grid(row = 1, column =2, columnspan=5)
 
-  panel = Label(master=Wrangle.inter, text=F"{Storage.previous_answer[-1]}")
+  panel = Label(master=Wrangle.inter, text=F"{Storage.previous_answer[-1]}", background=bgcolor)
   panel.grid(row = 1, column =1, columnspan=5)
 
 
@@ -149,7 +149,7 @@ def backend_writer_function():
   display_image()
 #   updatetyping, answer
 
-def main():  
+def main():
   Wrangle.inter.title("Example Calculator")
 #   Wrangle.inter = Button_Input_Wrangler()
   backend_writer_function()
@@ -169,12 +169,23 @@ def main():
                    ["ANS", "+/-", "back","clear" ]
                 #    ["print show"],
                    ]
+ 
+  text_colors = [[],
+                   ["black", "black", "black", "blue"],
+                   ["black", "black", "black", "black"],
+                   ["black", "black", "black", "blue"],
+                   ["blue", "blue", "blue", "blue"],
+                   ["blue", "blue", "red", "red"],
+                   ]
+  default_fontsize = 13
   user_interface_tool.make_function_array_into_buttons(m=Wrangle.inter, arrays=functions, texts =button_labels, 
                                      default_text = False,
-                                     zero_zero= (2,0))
+                                     zero_zero= (2,0),
+                                     text_colors=text_colors,
+                                     default_fontsize=default_fontsize)
   display_image()
+  # title_bar = Frame(Wrangle.inter, bg='red', relief='raised', bd=2)
   Wrangle.inter.mainloop()
-
 if __name__ ==  "__main__":
   main()
   
