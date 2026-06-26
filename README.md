@@ -1,5 +1,4 @@
-![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/calculator_with_color.png)
-![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/working_calculator_example.png)
+![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/calculator_with_color.png)    ![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/working_calculator_example.png)
 
 ### How To Use
 step 1: download this repository and python if you haven't already(make sure to install python):https://www.python.org/downloads/
