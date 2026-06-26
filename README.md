@@ -1,4 +1,5 @@
 ![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/calculator_with_color.png) 
+
 ![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/working_calculator_example.png)
 
 ### How To Use
