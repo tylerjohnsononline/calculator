@@ -139,7 +139,7 @@ def display_image(bgcolor="light gray"):
   panel.grid(row = 1, column =2, columnspan=5)
 
   panel = Label(master=Wrangle.inter, text=F"{Storage.previous_answer[-1]}", background=bgcolor)
-  panel.grid(row = 1, column =1, columnspan=5)
+  panel.grid(row = 1, column =2, columnspan=4)
 
 
 def backend_writer_function():
@@ -178,13 +178,33 @@ def main():
                    ["blue", "blue", "red", "red"],
                    ]
   default_fontsize = 13
+  samething = "solid"# flat, groove, raised, ridge, solid, or sunken
+  reliefs = [[],
+                   [f"{samething}" for xx in range(4)],
+                   [f"{samething}" for xx in range(4)],
+                   [f"{samething}" for xx in range(4)],
+                   [f"{samething}" for xx in range(4)],
+                   [f"{samething}" for xx in range(4)],
+                   ]
+  sized_to = [2,5]
+  sizings = [[],
+                   [sized_to for xx in range(4)],
+                   [sized_to for xx in range(4)],
+                   [sized_to for xx in range(4)],
+                   [sized_to for xx in range(4)],
+                   [sized_to for xx in range(4)],
+
+            ]
   user_interface_tool.make_function_array_into_buttons(m=Wrangle.inter, arrays=functions, texts =button_labels, 
                                      default_text = False,
                                      zero_zero= (2,0),
                                      text_colors=text_colors,
-                                     default_fontsize=default_fontsize)
+                                     default_fontsize=default_fontsize,
+                                     reliefs = reliefs,
+                                     sizing=sizings)
   display_image()
   # title_bar = Frame(Wrangle.inter, bg='red', relief='raised', bd=2)
+  Wrangle.inter.configure(background="light gray")
   Wrangle.inter.mainloop()
 if __name__ ==  "__main__":
   main()

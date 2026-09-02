@@ -8,7 +8,10 @@ from tkinter import *
 def make_function_array_into_buttons(m, arrays, texts =False, 
                                      default_text = False,
                                      zero_zero= (0,0),
-                                     text_colors=False, bg_colors=False, default_fontsize = 10 ): #leftmost buttons going down first column
+                                     text_colors=False, bg_colors=False, default_fontsize = 10 ,
+                                     reliefs = False,
+                                     sizing = False, #( height, width)
+                                     ): #leftmost buttons going down first column
     if texts == False:
       texts = [["" for __ in xx ] for xx in arrays]
       if default_text != False:
@@ -27,6 +30,11 @@ def make_function_array_into_buttons(m, arrays, texts =False,
            buttons[horizontal_index][index].config(foreground=text_colors[horizontal_index][index])
          if bg_colors != False:
            buttons[horizontal_index][index].config(bg=bg_colors[horizontal_index][index])
+         if reliefs != False:
+           buttons[horizontal_index][index].config(relief=reliefs[horizontal_index][index])
+         if sizing != False:
+           buttons[horizontal_index][index].config(width=sizing[horizontal_index][index][1],
+                                                   height=sizing[horizontal_index][index][0])
          buttons[horizontal_index][index].config(font= ("Segoe UI",default_fontsize,))
          buttons[horizontal_index][index].grid(row = index+zero_zero[0], column =horizontal_index+zero_zero[1]) 
 
