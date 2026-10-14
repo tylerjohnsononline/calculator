@@ -1,7 +1,7 @@
 ![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/calculator_with_color.png)
 ![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/working_calculator_example.png)
 
-### How To Use
+## How To Use:
 Step 1: Download this repository and Python if you haven't already (make sure to install Python):  https://www.python.org/downloads/
 
 Step 2: Run the following command: 
@@ -44,12 +44,10 @@ If you wish to run the program from the command line (cmd), replace "run_calcula
 ```
 python run_calculator_gui.py
 ```
-## There is always room for improvement
+## There is always room for improvement:
 
 #### If I did this project over, some changes to how the program works could be:
 I would change the use of floating points as a default storage method to avoid floating point issues by storing whole numbers and decimals separately.
-
-To improve maintainability, the buttons could be keyed to different functions.
 
 The names on the buttons can be somewhat confusing and are hard coded into the program. I would improve this by letting the names be more freely assigned in the program and choosing better names for the text on the buttons that the user sees.
 
