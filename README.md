@@ -55,7 +55,7 @@ I would shorten the button_writes_to_backend function by extracting out how to i
 
 I would keep the apply_no_order_of_operations function and add the option to use order of operations by having a separate function to handle the how the computer chooses what to do in sequence.
 
-#### Potential Additions 
+## Potential Additions 
 Add single character removal.
 
 Add the ability to move the cursor.
