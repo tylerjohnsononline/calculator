@@ -1,17 +1,16 @@
-![image](https://github.com/tylerjohnsononline/calculator/blob/main/images/calculator_with_color.png) 
-
-![image](https://github.com/tylerjohnsononline/calculator/blob/main/images/working_calculator_example.png)
+![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/calculator_with_color.png)
+![image](https://github.com/tylerjohnsononline/calculator/blob/gui_colors/images/working_calculator_example.png)
 
 ### How To Use
-step 1: download this repository and python if you haven't already(make sure to install python):https://www.python.org/downloads/
+Step 1: Download this repository and Python if you haven't already (make sure to install Python):  https://www.python.org/downloads/
 
-step 2: run the following command: 
+Step 2: Run the following command: 
 
 ```
 python -m venv place_to_place_virtual_environment
 ```
 
-step 3: open the virtual environment:
+Step 3: Open the virtual environment:
 
 ```
 place_to_place_virtual_environment\Scripts\activate.bat
@@ -24,31 +23,24 @@ pip install -r requirements.txt
 ```
 python run_calculator_gui.py
 ```
-step 4: use the window that looks like calculator image by clicking on the numbers and operations you want to perform.
+Step 4: Use the window that looks like calculator image by clicking on the numbers and operations you want to perform.
 
-step 5: click the "=" button when your equation is ready.
+Step 5: Click the "=" button when your equation is ready.
 
 ## Why a calculator?
-As a first portfolio project a calculator was well within the scope of my capabilities.
-
-I wanted a project which I could use to demonstrate my ability to code, this was the choice because it is complex enough to show the level of proficiency I have.
-
-## What I did:
-I made a calculator that does calculations from left to right with no order of operations.
-
-To avoid input problems, the inputs are based on the buttons that the software makes and the user clicks instead of keyboard inputs(so no, typing with the number pad or number keys will not work).
+I wanted a first project which I could use to demonstrate my ability to code.  A calculator was well within the scope of my capabilities while being complex enough to show significant proficiency.
 
 ## What I learned:
-I learned the importance of and how to name functions and variables.
+I learned the importance of functions and variables, and how to name them.
 
 I learned about extracting functions to improve functionality, readability, and workability.
 
-While coding I ran into functions I did not use, so I learned to only add functions after finding a specific use case.
+While coding this calculator, I was presented with function options that I decided didn't add value to my project goal.  I learned how to keep my code streamlined by omitting extraneous functions.
 
-I learned after completion that floating point math can cause strange unintended consequences in many programming languages, see bellow for what I would have done differently.
+I learned after completion that floating point math can cause strange unintended consequences in many programming languages, see below for what I would have done differently.
 
 I also learned about adding command line functionality by adding a user interface and made the run_calculator_gui.py executable from the command line.
-If you wish to run the program from the command line(cmd), replace "run_calculator_gui.py" with the path to where that file is saved.
+If you wish to run the program from the command line (cmd), replace "run_calculator_gui.py" with the path to where that file is saved.
 ```
 python run_calculator_gui.py
 ```
