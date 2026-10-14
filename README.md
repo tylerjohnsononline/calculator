@@ -1,5 +1,5 @@
 ![image](https://github.com/tylerjohnsononline/calculator/blob/main/images/calculator_with_color.png)
-![image](https://github.com/tylerjohnsononline/calculator/blob/main/images/calculator_with_color.png)
+![image](https://github.com/tylerjohnsononline/calculator/blob/main/images/working_calculator_example.png)
 
 ## How To Use:
 Step 1: Download this repository and Python if you haven't already (make sure to install Python):  https://www.python.org/downloads/
