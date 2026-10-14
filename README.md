@@ -74,5 +74,3 @@ Build a function to give the option to calculate with order of operations.
 
 For developers and maintainance, in the code: Type hints, more comments, and better comments explaining how things should work would be added so anyone reading the code can more easily understand the decisions made and why things are the way they are.
 
-
-
