@@ -128,14 +128,14 @@ def display_image(bgcolor="light gray"):
   panel = Label(master=Wrangle.inter, text=F"INPUT",background=bgcolor)
   panel.grid(row = 0, column =1)
 
-  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20),background=bgcolor)
+  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 15),background=bgcolor)
   panel.grid(row = 0, column =2, columnspan=5)
   panel = Label(master=Wrangle.inter, text=F"{Storage.backend}", font=(None, 10),background=bgcolor)
   panel.grid(row = 0, column =2, columnspan=5)
 
   panel = Label(master=Wrangle.inter, text=F"OUTPUT",background=bgcolor)
   panel.grid(row = 1, column =1) 
-  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 20), background=bgcolor)
+  panel = Label(master=Wrangle.inter, text=F" "*20, font=(None, 15), background=bgcolor)
   panel.grid(row = 1, column =2, columnspan=5)
 
   panel = Label(master=Wrangle.inter, text=F"{Storage.previous_answer[-1]}", background=bgcolor)
@@ -177,7 +177,7 @@ def main():
                    ["blue", "blue", "blue", "blue"],
                    ["blue", "blue", "red", "red"],
                    ]
-  default_fontsize = 20
+  default_fontsize = 15
   samething = "solid"# flat, groove, raised, ridge, solid, or sunken
   reliefs = [[],
                    [f"{samething}" for xx in range(4)],
